@@ -1,0 +1,114 @@
+/* public/css/app.css */
+
+/* Используем шрифт Google Fonts и увеличим размер шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Общие стили для страницы */
+body {
+    background-color: #0056b3; /* Глубокий синий фон */
+    color: #ffffff; /* Белый цвет текста */
+    font-family: 'Roboto', sans-serif; /* Новый шрифт */
+    font-size: 18px; /* Увеличенный размер текста */
+    line-height: 1.6; /* Увеличенный межстрочный интервал */
+    padding: 20px;
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+    color: #ffdd57; /* Желтый цвет заголовков */
+    font-weight: 700; /* Сделаем заголовки жирными */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Тень для текста */
+    margin-bottom: 20px; /* Отступы под заголовками */
+}
+
+/* Стили для навигационного меню */
+.navbar {
+    background-color: #003366; /* Более темный синий фон для меню */
+    padding: 15px; /* Увеличенные отступы */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тень под меню */
+}
+
+.navbar .nav-link {
+    color: #ffffff;
+    margin-right: 20px; /* Увеличим отступы между пунктами меню */
+    font-size: 18px; /* Увеличим размер текста в меню */
+    font-weight: 500; /* Полужирный текст */
+}
+
+.navbar .nav-link:hover {
+    color: #ffdd57; /* Желтый при наведении */
+    font-weight: 700; /* Жирный текст при наведении */
+}
+
+/* Стили для кнопок */
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    padding: 12px 24px;
+    font-size: 18px; /* Увеличим текст кнопок */
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px; /* Увеличим текст кнопок */
+    font-weight: bold;
+}
+
+.btn {
+    padding: 12px 24px; /* Увеличенные кнопки */
+    font-size: 18px;
+    margin-top: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Тень под кнопками */
+    transition: all 0.3s ease; /* Анимация при наведении */
+}
+
+.btn:hover {
+    transform: scale(1.05); /* Увеличение кнопок при наведении */
+}
+
+/* Стили для карточек */
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Тень для карточек */
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 10px; /* Скругленные углы */
+}
+
+.card-header {
+    background-color: #003366; /* Темно-синий фон заголовка карточек */
+    color: white;
+    font-size: 1.5rem; /* Увеличенный размер текста в заголовке карточек */
+    padding: 15px;
+    border-top-left-radius: 10px; /* Скругление верхних углов */
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px; /* Увеличенные отступы внутри карточек */
+    font-size: 1.1rem; /* Увеличенный текст в карточках */
+}
+
+.card-footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 15px;
+    font-size: 1.1rem; /* Увеличенный размер текста */
+    border-bottom-left-radius: 10px; /* Скругление нижних углов */
+    border-bottom-right-radius: 10px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #ffdd57; /* Желтые ссылки */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff; /* Белый цвет при наведении */
+}
